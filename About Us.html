@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="https://rddzyns.com/Leo/style1/RdDzynsKSSD1561.jpg"
+    type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Rubik+Broken+Fax&display=swap" rel="stylesheet">
+    <style>
+        body{
+        background-image: linear-gradient(to right, rgba(6, 6, 6, 0.95), rgba(30, 27, 27, 0.95), rgba(11, 11, 11, 0.9), rgba(12, 12, 12, 0.85), rgba(8, 8, 8, 0.95));
+      }
+
+      .dol{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+        justify-content: space-around;
+        gap: 20px;
+      }
+
+      .maincont{
+        position: relative;
+        width: 250px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .card{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: all 1s ease;
+        background-color: yellow;
+        border-radius: 20px;
+        text-align: center;
+      }
+
+      .card:hover{
+        transform: rotateY(180deg);
+      }
+
+      .front{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+      }
+
+      button{
+        background-color: black;
+        color: rgb(255, 255, 255);
+        border: 0cap;
+        border-radius: 20px;
+      }
+
+      button:hover{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        transition: all 0.5s ease-in;
+      }
+
+      .back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        transform: rotateY(180deg);
+        border-radius: 20px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-size: larger;
+        text-transform: capitalize;
+      }
+
+      .about{
+        text-align: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        justify-content: space-around;
+        background-color: black;
+        padding: 10px;
+      }
+
+      .founder{
+        position: relative;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+
+      .mincont{
+        width: 350px;
+        position: relative;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+      }
+
+    </style>
+</head>
+<body>
+    <div class="navv">
+        <nav class="navbar">
+            <img class="logo" src="https://drive.google.com/file/d/1yKG0zVScWZxhmxIR1hRbnpEREqPKar41/view?usp=sharing" width="150" alt="Logo" />
+           <ul>
+            <a href="index.html"><i class="fa fa-home"></i> Home</a>
+            <a href="cricket.html"><i class=""></i> Cricket</a>
+            <a href="Volleyball.html"><i class=""></i> Volleyball</a>
+            <a href="BasketBall.html"><i class=""></i> Basketball</a>
+            <a href="FootBall.html"><i class=""></i> FootBall</a>
+            <a href="Other Items.html"></i> Other Items</a>
+            <a href="About Us.html" style="text-decoration: underline; color: red;"><i class="fa fa-group"></i> About Us</a>
+           </ul>
+           <div class="search">
+            <form action="">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Go</button>
+            </form>
+        </div>
+        </nav>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="about">
+            <head>About Us</head>
+            <h1>KSSD_Sports</h1>
+            <p>KSSD_Sports is a Indian multinational corporation that designs and manufactures athletic and casual footwear, apparel, and accessories, headquartered in India,<br> Singapore. KSSD_Sports is the third largest sportswear manufacturer in the world. The company was founded in 2004 by <b>Kapaganti Sri Shanmuga Datta Aditya</b>.</p>
+        </div>
+        <br>
+        <div class="founder">
+          <div class="mincont">
+            <div class="card">
+              <div class="front"><img src="https://i.ibb.co/hy02gWL/IMG-3880.jpg" alt="" height="300vh" width="150px" style="border-radius: 50px;"> <br> <br> <br> <b>Founder Of KSSD_Sports</b> </div>
+              <div class="back"><br><br><br><br><b>Name: </b>Adi Mama <br><br><br><b>Occupation: </b>Student <br><br><br><b>Department: </b>IT <br><br><br><b>Team: </b>Techans <br></div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="dol">
+          <div class="maincont">
+            <div class="card">
+              <div class="front"><img src="https://media.istockphoto.com/id/916306960/photo/faceless-man-in-hoodie-standing-isolated-on-black.webp?b=1&s=170667a&w=0&k=20&c=xGJa1No7AgmFetJEpcJ5tor8QKTWIPnF9Yc8TiGmbbU=" alt="" height="250vh" width="160px" style="border-radius: 50px;"> <br> <br> <br> <b>Developer</b> </div>
+              <div class="back"><br><br><b>Name: </b>Dharshan_Don <br><br><br><b>Occupation: </b>Student <br><br><br><b>Department: </b>IT <br><br><br><b>Team: </b>Techans <br></div>
+            </div>
+          </div>
+          <div class="maincont">
+            <div class="card">
+              <div class="front"><img src="https://i.ibb.co/R6Lv8Kd/Whats-App-Image-2024-03-31-at-15-00-10-ecdf8a7e.jpg" alt="" height="250vh" width="150px" style="border-radius: 50px;"> <br> <br> <br> <b>Assistant Developer</b> </div>
+              <div class="back"><br><br><b>Name: </b>Ragulii <br><br><br><b>Occupation: </b>Student <br><br><br><b>Department: </b>IT <br><br><br><b>Team: </b>Techans <br></div>
+            </div>
+          </div>
+          <div class="maincont">
+            <div class="card">
+              <div class="front"><img src="https://i.ibb.co/gPw7j6v/Whats-App-Image-2024-03-31-at-18-45-31-de66a273.jpg" alt="" width="150px" height="200vh" style="border-radius: 50px;"> <br> <br> <br> <b>Website Stylist</b> </div>
+              <div class="back"><br><br><b>Name: </b>Bala Saar <br><br><br><b>Occupation: </b>Student <br><br><br><b>Department: </b>IT <br><br><br><b>Team: </b>Techans <br></div>
+            </div>
+          </div>
+          <div class="maincont">
+            <div class="card">
+              <div class="front"><img src="https://i.ibb.co/D7F3GGQ/Whats-App-Image-2024-03-31-at-18-49-23-781446d0.jpg" alt="" width="150px" height="200vh"style="border-radius: 50px;"> <br> <br> <br> <b>Team Leader</b> </div>
+              <div class="back"><br><br><b>Name: </b>January jawa <br><br><br><b>Occupation: </b>Student <br><br><br><b>Department: </b>IT <br><br><br><b>Team: </b>Techans <br></div>
+            </div>
+          </div>
+          </div>
+          <br>
+          <div class="map">
+            <center><h1 style="color: rgb(255, 255, 255); text-decoration: underline;">Reach Out to Us</h1></center>
+            <center><h3 style="color: rgb(255, 255, 255);">No.207, NallavanPalaYam,<br>Tiruvannamali,<br>TamilNadu-601003 <br> <br> ph : +91-9422146423 <br> mob: +91-9894659743</h3></center>
+            <center><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d223.10040312299546!2d79.04741126410397!3d12.203834162936177!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bacbf93bf4e0d9b%3A0x4e76513c1b5ad79a!2sNallavanpalayam%2C%20Tamil%20Nadu%20606603!5e1!3m2!1sen!2sin!4v1711881680000!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+          </div>
+          <footer class="footer" style="margin-top: 200px;">
+            <div class="cotainer">
+                <div class="row">
+                    <div class="col">
+                        <h4>Contact Us</h4>
+                        <p style="color: white;">
+                          No.207, NallavanPalaYam,<br>Tiruvannamali,<br>TamilNadu-601003 <br> <br> ph : +91-9422146423 <br> mob: +91-9894659743
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">order status</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4>online shop</h4>
+                        <ul>
+                            <li><a href="cricket.html">Cricket</a></li>
+                            <li><a href="Volleyball.html">Volleyball</a></li>
+                            <li><a href="BasketBall.html">BasketBall</a></li>
+                            <li><a href="FootBall.html">FootBall</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4>follow us</h4>
+                        <div class="inks">
+                            <a href="https://www.facebook.com/"><i class="fa fa-facebook-f"></i></a>
+                            <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/kssd_sports?igsh=OWM4NjhxaG9wNnBj&utm_source=qr"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/"><i class="fa  fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasketBall</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="https://rddzyns.com/Leo/style1/RdDzynsKSSD1561.jpg"
+    type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Rubik+Broken+Fax&display=swap" rel="stylesheet">
+    <style>
+      body{
+        background-image: linear-gradient(to right, rgba(6, 6, 6, 0.95), rgba(30, 27, 27, 0.95), rgba(11, 11, 11, 0.9), rgba(12, 12, 12, 0.85), rgba(8, 8, 8, 0.95));
+      }
+
+      .dol{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+        justify-content: space-around;
+        gap: 20px;
+      }
+
+      .maincont{
+        position: relative;
+        width: 250px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .card{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: all 1s ease;
+        background-color: yellow;
+        border-radius: 20px;
+        text-align: center;
+      }
+
+      .card:hover{
+        transform: rotateY(180deg);
+      }
+
+      .front{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+      }
+
+      button{
+        background-color: black;
+        color: rgb(255, 255, 255);
+        border: 0cap;
+        padding: 5px;
+      }
+
+      button:hover{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        transition: all 0.5s ease-in;
+      }
+
+      .back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        transform: rotateY(180deg);
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+        text-transform: capitalize;
+      }
+
+    </style>
+</head>
+<body>
+  <div class="navv">
+    <nav class="navbar">
+        <img class="logo" src="https://drive.google.com/file/d/1yKG0zVScWZxhmxIR1hRbnpEREqPKar41/view?usp=sharing" width="150" alt="Logo" />
+       <ul>
+        <a href="index.html"><i class="fa fa-home"></i> Home</a>
+        <a href="cricket.html"> Cricket</a>
+        <a href="Volleyball.html"> Volleyball</a>
+        <a href="BasketBall.html" style="text-decoration: underline; color: red;"> Basketball</a>
+        <a href="FootBall.html"> FootBall</a>
+        <a href="Other Items.html"> Other Items</a>
+        <a href="About Us.html"><i class="fa fa-group"></i> About Us</a>
+       </ul>
+       <div class="search">
+        <form action="">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Go</button>
+        </form>
+    </div>
+    </nav>
+    </div>
+    <br>
+    <br><br><br>
+  <div>
+    <img src="https://cdn.shopify.com/s/files/1/0268/7480/6357/files/Basketball_Equipment_Checklist.jpg?v=1610942125" alt="" width="1500px" height="400vh">
+  </div>
+  <br>
+  <div class="dol">
+    <div class="maincont">
+      <div class="card">
+        <div class="front"><img src="https://m.media-amazon.com/images/I/41OY8fZErsL._AC_SR300,300.jpg" alt="" width="150px" height="200vh" style="border-radius: 50px;"> <br> <br> <br> <b>Hover To See the Price</b> </div>
+        <div class="back"><br><br>Price <br> <br> <br> <br>Rs.350 <br> <br> <br> <br> <br> <br> <br> <button>Add To Cart</button></div>
+      </div>
+    </div>
+    <div class="maincont">
+      <div class="card">
+        <div class="front"><img src="https://m.media-amazon.com/images/I/616rynN79AL.jpg" alt="" width="150px" height="200vh" style="border-radius: 50px;"> <br> <br> <br> <b>Hover To See the Price</b> </div>
+        <div class="back"><br><br>Price <br> <br> <br> <br>Rs.350 <br> <br> <br> <br> <br> <br> <br> <button>Add To Cart</button></div>
+      </div>
+    </div>
+    <div class="maincont">
+      <div class="card">
+        <div class="front"><img src="https://www.cosco.in/uploads/products/main_image/acra-48_98055453972.jpg" alt="" width="150px" height="200vh" style="border-radius: 50px;"> <br> <br> <br> <b>Hover To See the Price</b> </div>
+        <div class="back"><br><br>Price <br> <br> <br> <br>Rs.350 <br> <br> <br> <br> <br> <br> <br> <button>Add To Cart</button></div>
+      </div>
+    </div>
+    <div class="maincont">
+      <div class="card">
+        <div class="front"><img src="https://m.media-amazon.com/images/I/61d7Bo6EbyL._AC_UF894,1000_QL80_.jpg" alt="" width="150px" height="200vh"style="border-radius: 50px;"> <br> <br> <br> <b>Hover To See the Price</b> </div>
+        <div class="back"><br><br>Price <br> <br> <br> <br>Rs.350 <br> <br> <br> <br> <br> <br> <br> <button>Add To Cart</button></div>
+      </div>
+    </div>
+    <div class="maincont">
+      <div class="card">
+        <div class="front"><img src="https://5.imimg.com/data5/SELLER/Default/2020/12/UI/LQ/TM/475165/synthetic-acrylic-basketball-court.jpeg" alt="" width="150px" height="200vh" style="border-radius: 50px;"> <br> <br> <br> <b>Hover To See the Price</b> </div>
+        <div class="back"><br><br>Price <br> <br> <br> <br>Rs.350 <br> <br> <br> <br> <br> <br> <br> <button>Add To Cart</button></div>
+      </div>
+    </div>
+    <div class="maincont">
+      <div class="card">
+        <div class="front"><img src="https://rukminim2.flixcart.com/image/850/1000/joud1u80/toy-sport/w/x/x/shv-4253-basketball-shrih-original-imafb6mz3967dczx.jpeg?q=90&crop=false" alt="" width="150px" height="200vh" style="border-radius: 50px;"> <br> <br> <br> <b>Hover To See the Price</b> </div>
+        <div class="back"><br><br>Price <br> <br> <br> <br>Rs.350 <br> <br> <br> <br> <br> <br> <br> <button>Add To Cart</button></div>
+      </div>
+    </div>
+    <div class="maincont">
+      <div class="card">
+        <div class="front"><img src="https://rukminim2.flixcart.com/image/850/1000/joud1u80/toy-sport/w/x/x/shv-4253-basketball-shrih-original-imafb6mzvshv2xtn.jpeg?q=20&crop=false" alt="" width="150px" height="200vh" style="border-radius: 50px;"> <br> <br> <br> <b>Hover To See the Price</b> </div>
+        <div class="back"><br><br>Price <br> <br> <br> <br>Rs.350 <br> <br> <br> <br> <br> <br> <br> <button>Add To Cart</button></div>
+      </div>
+    </div>
+    <div class="maincont">
+      <div class="card">
+        <div class="front"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbmgOVUdjSsxW3Ig1uWoh5-peYTGTB1f91eA&usqp=CAU" alt="" width="150px" height="200vh" style="border-radius: 50px;"> <br> <br> <br> <b>Hover To See the Price</b> </div>
+        <div class="back"><br><br>Price <br> <br> <br> <br>Rs.350 <br> <br> <br> <br> <br> <br> <br> <button>Add To Cart</button></div>
+      </div>
+    </div>
+    <div class="maincont">
+      <div class="card">
+        <div class="front"><img src="https://target.scene7.com/is/image/Target/GUEST_20affc7e-e0d7-4eb6-a6f3-68d13520f8be?wid=488&hei=488&fmt=pjpeg" alt="" width="150px" height="200vh" style="border-radius: 50px;"> <br> <br> <br> <b>Hover To See the Price</b> </div>
+        <div class="back"><br><br>Price <br> <br> <br> <br>Rs.350 <br> <br> <br> <br> <br> <br> <br> <button>Add To Cart</button></div>
+      </div>
+    </div>
+    <div class="maincont">
+      <div class="card">
+        <div class="front"><img src="https://www.sportsdirect.com/images/imgzoom/80/80316912_xxl.jpg" alt="" width="150px" height="200vh" style="border-radius: 50px;"> <br> <br> <br> <b>Hover To See the Price</b> </div>
+        <div class="back"><br><br>Price <br> <br> <br> <br>Rs.350 <br> <br> <br> <br> <br> <br> <br> <button>Add To Cart</button></div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer" style="margin-top: 200px;">
+    <div class="cotainer">
+        <div class="row">
+            <div class="col">
+                <h4>Contact Us</h4>
+                <p style="color: white;">
+                  No.207, NallavanPalaYam,<br>Tiruvannamali,<br>TamilNadu-601003 <br> <br> ph : +91-9422146423 <br> mob: +91-9894659743
+                </p>
+            </div>
+            <div class="col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="cricket.html">Cricket</a></li>
+                    <li><a href="Volleyball.html">Volleyball</a></li>
+                    <li><a href="BasketBall.html">BasketBall</a></li>
+                    <li><a href="FootBall.html">FootBall</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>follow us</h4>
+                <div class="inks">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/kssd_sports?igsh=OWM4NjhxaG9wNnBj&utm_source=qr"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa  fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
